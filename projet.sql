@@ -64,7 +64,6 @@ CREATE TABLE IF NOT EXISTS `client` (
 --
 
 INSERT INTO `client` (`Identifiant`, `Pass`, `Nom`, `Prenom`, `Email`, `Portable`, `Adresse`) VALUES
-('tomas', 'tomas', 'tomas', 'tomas', 'tomas@tomas', 70345, 'tomas'),
 ('david', 'david', 'david', 'david', 'david@david', 7410, 'david');
 
 -- --------------------------------------------------------
@@ -94,7 +93,6 @@ CREATE TABLE IF NOT EXISTS `panier` (
 --
 
 INSERT INTO `panier` (`Identifiant`, `Pass`, `Box1`, `Box2`, `Box3`, `Rope1`, `Rope2`, `Rope3`, `Glove1`, `Glove2`, `Glove3`) VALUES
-('tomas', 'tomas', 0, 1, 0, 1, 0, 0, 1, 0, 0),
 ('david', 'david', 0, 1, 0, 0, 0, 0, 0, 0, 0);
 COMMIT;
 
